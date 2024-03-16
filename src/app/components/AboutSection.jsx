@@ -77,13 +77,13 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/yuri-code.svg" width={500} height={500} />
+        <Image src="/images/about-image.png" width={800} height={800} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             Passionate and driven professional seeking an enriching opportunity within a forward-thinking organization, where I can leverage my expertise and tenacity to contribute significantly towards innovation and collective success. Eager to collaborate with a dynamic team dedicated to catalyzing organizational advancement and achieving excellence.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-20">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
